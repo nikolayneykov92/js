@@ -1,0 +1,12 @@
+{
+  "name": "conditional-statements",
+  "version": "1.0.0",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^7.18.0",
+    "prettier": "^2.2.1"
+  }
+}
