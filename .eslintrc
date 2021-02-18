@@ -5,7 +5,8 @@
   },
   "extends": "eslint:recommended",
   "rules": {
-    "semi": "off"
+    "semi": "off",
+    "newline-before-return": "error"
   },
   "env": {
     "node": true
