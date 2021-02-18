@@ -1,12 +1,16 @@
 {
   "parserOptions": {
-    "ecmaVersion": 6,
-    "sourceType": "module"
+    "ecmaVersion": 2021,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "restParams": true,
+      "experimentalObjectRestSpread": true
+    }
   },
   "extends": "eslint:recommended",
   "rules": {
     "semi": "off",
-    "newline-before-return": "error"
+    "newline-before-return": "error",
   },
   "env": {
     "node": true
