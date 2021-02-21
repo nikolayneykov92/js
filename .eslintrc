@@ -10,9 +10,10 @@
   "extends": "eslint:recommended",
   "rules": {
     "semi": "off",
-    "newline-before-return": "error",
+    "newline-before-return": "error"
   },
   "env": {
-    "node": true
+    "node": true,
+    "browser": true
   }
 }
