@@ -21,7 +21,7 @@ function printPyramidMaterialAmounts(base, increment) {
 
   while((currentLength % 2 === 0 && currentLength > 2) || (currentLength % 2 === 1 && currentLength > 1)) {
     const currentRowBlocks = Math.pow(currentLength, 2)
-    const innerLayerBlocks = Math.pow(currentLength -2, 2)
+      const innerLayerBlocks = Math.pow(currentLength -2, 2)}
     const outerLayerBlocks = currentRowBlocks - innerLayerBlocks 
 
     materials.stone += innerLayerBlocks * increment
